@@ -1,11 +1,19 @@
 /*font-family: 'Inter', sans-serif;
 font-family: 'Mulish', sans-serif;
 font-family: 'Playfair Display', serif;*/
+body {
+    margin: 0;
+}
+
+.wrapper {
+    padding: 0 8px;
+}
 
 .header-wrap {
     max-width: 1300px;
     margin: 0 auto;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -13,9 +21,15 @@ font-family: 'Playfair Display', serif;*/
     max-width: 1200px;
     align-items: center;
 }
+
 .header-menu {
     display: flex;
 }
+
+.dropdowns {
+    display: none;
+}
+
 .menu__items {
     display: flex;
     list-style: none;
@@ -25,16 +39,20 @@ font-family: 'Playfair Display', serif;*/
     font-size: 16px;
     text-transform: capitalize;
 }
+
 .menu__item {
     margin-right: 35px;
 }
+
 .menu__link {
     text-decoration: none;
     color: #B8BECD;
 }
+
 .menu__link:hover {
     color: #202336;
 }
+
 .header-menu__btn {
     border: 1px solid #fb8f1d;
     font-family: 'Inter', sans-serif;
@@ -48,31 +66,39 @@ font-family: 'Playfair Display', serif;*/
     background-color: #fff;
     cursor: pointer;
 }
+
 .header-menu__btn:hover {
     color: #fff;
     background-color: #fb8f1d;
 }
+
 .header-menu__btn:focus {
     outline: none;
 }
-.header-menu__btn--login{
+
+.header-menu__btn--login {
     margin-right: 18px;
 }
+
 main {
     margin: 0 auto;
     max-width: 1300px;
 }
+
 .top-content {
     display: flex;
     margin-top: 70px;
     max-width: 1300px;
 }
+
 .top-content-left {
     width: 50%;
 }
+
 .top-content-left_title {
     max-width: 360px;
 }
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 64px;
@@ -80,17 +106,20 @@ h1 {
     line-height: 80px;
     color: #202336;
 }
+
 .form {
     margin-top: 75px;
     margin-bottom: 40px;
 }
-.select-label{
+
+.select-label {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 22px;
     color: #202336;
     position: relative;
 }
+
 .select-label:after {
     content: "";
     display: block;
@@ -101,9 +130,11 @@ h1 {
     left: 0;
     margin: auto;
 }
+
 .select-items {
     margin-top: 70px;
 }
+
 .select {
     width: 220px;
     padding: 18px;
@@ -122,9 +153,11 @@ h1 {
     background-repeat: no-repeat;
     background-position: right 20px center;
 }
+
 .select:nth-child(odd) {
     margin-right: 30px;
 }
+
 .btn {
     background-color: #FB8F1D;
     color: #fff;
@@ -139,15 +172,18 @@ h1 {
     box-sizing: border-box;
     margin-top: 30px;
 }
+
 .btn:hover {
     color: #FB8F1D;
     background-color: #fff;
     border: 1px solid #fb8f1d;
     box-sizing: border-box;
 }
-.top-content-right_wrap{
+
+.top-content-right_wrap {
     width: 50%;
 }
+
 .top-content-right {
     width: 100%;
     height: auto;
@@ -171,21 +207,25 @@ h1 {
 .content:nth-child(4) .content-picture {
     margin: 0 0 0 100px;
 }
-.content-img{
+
+.content-img {
     width: 100%;
     height: auto;
 }
+
 .content-info {
     margin-top: 100px;
     width: 36%;
 }
+
 h2 {
-   font-size: 36px;
+    font-size: 36px;
     font-weight: 700;
     color: #000;
     font-family: 'Playfair Display', serif;
     margin: 0;
 }
+
 .content-text {
     margin-top: 20px;
     margin-bottom: 0;
@@ -200,11 +240,13 @@ h2 {
     max-width: 1200px;
     margin-top: 260px;
 }
+
 .destinations-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .destinations-header-link {
     margin-left: 5px;
     text-decoration: none;
@@ -212,25 +254,31 @@ h2 {
     font-size: 17px;
     color: #FB8F1D;
 }
+
 .destinations-header-link:hover {
     text-decoration: underline;
 }
+
 .destinations-cards {
     margin-top: 50px;
     display: flex;
 }
+
 .destinations-card {
     width: 25%;
     text-decoration: none;
     margin-right: 25px;
 }
+
 .destinations-card:hover {
     opacity: 0.7;
     border-radius: 8px;
 }
+
 .destinations-card:last-child {
     margin-right: 0;
 }
+
 .destinations-card-info {
     position: relative;
     background: center center / cover no-repeat;
@@ -239,6 +287,7 @@ h2 {
     display: flex;
     align-items: flex-end;
 }
+
 .destinations-card-text {
     display: flex;
     flex-direction: column;
@@ -250,10 +299,12 @@ h2 {
     line-height: 24px;
     border-bottom-left-radius: 8px;
 }
+
 .destinations-card-city {
     color: #042521;
     font-size: 17px;
 }
+
 .destinations-card-country {
     color: #80918E;
     font-size: 15px;
@@ -263,25 +314,30 @@ h2 {
     max-width: 1200px;
     margin-top: 240px;
 }
+
 .review {
     margin-top: 40px;
     display: flex;
 }
+
 .review-info {
     margin-right: 180px;
     width: 65%;
     margin-top: 145px;
     margin-bottom: 60px;
 }
+
 .review-rating {
     display: flex;
 }
+
 .review-star {
     background-image: url(img/star.svg);
     width: 24px;
     height: 24px;
     margin-right: 16px;
 }
+
 .review-text {
     font-family: 'Mulish', sans-serif;
     font-size: 24px;
@@ -290,6 +346,7 @@ h2 {
     line-height: 36px;
     margin-top: 30px;
 }
+
 .review-author {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
@@ -299,6 +356,7 @@ h2 {
     display: block;
     margin-top: 40px;
 }
+
 .review-position {
     display: block;
     font-family: 'Inter', sans-serif;
@@ -306,6 +364,7 @@ h2 {
     font-weight: 400;
     color: #000;
 }
+
 .review-picture {
     width: 35%;
     border-radius: 8px;
@@ -313,12 +372,14 @@ h2 {
     align-items: flex-end;
     justify-content: flex-end;
 }
+
 .slider {
     background-color: #fff;
     border-top-left-radius: 8px;
     padding-top: 15px;
     padding-left: 20px;
 }
+
 .slider-btn {
     width: 40px;
     height: 40px;
@@ -328,16 +389,20 @@ h2 {
     background-color: unset;
     padding: 0;
 }
+
 .back {
     background-image: url(img/previous.svg);
     margin-right: 10px;
 }
+
 .back:hover {
     background-image: url(img/previous_hover.svg);
 }
+
 .next {
     background-image: url(img/next.svg);
 }
+
 .next:hover {
     background-image: url(img/next_hover.svg);
 }
@@ -346,11 +411,13 @@ h2 {
     max-width: 1200px;
     margin-top: 270px;
 }
+
 .trending-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .trending-header-link {
     margin-left: 5px;
     text-decoration: none;
@@ -358,26 +425,32 @@ h2 {
     font-size: 17px;
     color: #FB8F1D;
 }
+
 .trending-header-link:hover {
     text-decoration: underline;
 }
+
 .trending-cards {
     display: flex;
     margin-top: 50px;
 }
+
 .trending-card {
     width: 25%;
     margin-right: 20px;
     text-decoration: none;
     display: flex;
 }
+
 .trending-card:last-child {
     margin-right: 0;
 }
+
 .trending-card-info {
     height: 450px;
     position: relative;
 }
+
 .trending-card-img {
     position: relative;
     background: top center / cover no-repeat;
@@ -385,12 +458,15 @@ h2 {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
+
 .trending-card:hover .trending-card-img {
     opacity: 0.7;
 }
+
 .trending-card-text {
     margin-top: 15px;
 }
+
 .trending-card-title {
     font-family: 'Inter', sans-serif;
     font-size: 19px;
@@ -400,6 +476,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 13px;
 }
+
 .trending-card-description {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -408,35 +485,38 @@ h2 {
     color: #7d7987;
     margin-bottom: 25px;
 }
+
 .trending-card-read {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: 600;
-    line-height: 28px;
     color: #FB8F1D;
-    position: absolute;
-    bottom: 0;
 }
 
 .footer {
     background-color: #F9F9FB;
     margin-top: 250px;
 }
+
 .footer-wrapper {
     max-width: 1300px;
     margin: 0 auto;
 }
+
 .footer-wrap {
     max-width: 1200px;
 }
+
 .footer-info {
     display: flex;
     padding-top: 78px;
 }
+
 .footer-left {
     width: calc(40% - 100px);
     margin-right: 100px;
 }
+
 .footer-text {
     color: #848484;
     font-family: 'Mulish', sans-serif;
@@ -444,6 +524,7 @@ h2 {
     line-height: 28px;
     margin-top: 25px;
 }
+
 .copywrit {
     color: #848484;
     font-family: 'Mulish', sans-serif;
@@ -452,16 +533,19 @@ h2 {
     margin-top: 55px;
     display: block;
 }
+
 .footer-right {
     display: flex;
     width: 60%;
     justify-content: space-between;
 }
+
 .list-items {
     list-style-type: none;
     margin-top: 0;
     padding-left: 0;
 }
+
 .list-item-title {
     color: #000;
     font-family: 'Mulish', sans-serif;
@@ -471,18 +555,22 @@ h2 {
     margin-top: 0;
     margin-bottom: 10px;
 }
+
 .list-item {
     color: #848484;
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
     line-height: 38px;
 }
+
 .list-item-link {
     text-decoration: none;
 }
+
 .list-item-link:hover {
     color: #FB8F1D;
 }
+
 .social-items {
     max-width: 1200px;
     margin: 75px auto 0;
@@ -490,6 +578,7 @@ h2 {
     justify-content: center;
     padding-bottom: 30px;
 }
+
 .social-item {
     width: 25px;
     height: 20px;
@@ -499,21 +588,543 @@ h2 {
     display: block;
     margin-right: 20px;
 }
+
 .social-item:hover {
     background-size: 15px;
 }
+
 .twitter {
     background-image: url(img/twitter.svg);
 }
+
 .facebook {
     background-image: url(img/facebook-logo.svg);
 }
+
 .instagram {
     background-image: url(img/instagram.svg);
 }
+
 .in {
     background-image: url(img/in.svg);
 }
+
 .youtube {
     background-image: url(img/youtube.svg);
+}
+
+@media (max-width: 1199px) and (min-width: 641px) {
+    .dropdowns {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .dropbtn-items {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        padding: 5px;
+    }
+
+    .dropbtn-items:focus {
+        outline: 1px solid #fb8f1d;
+        padding: 5px;
+    }
+
+    .dropbtn-item {
+        position: relative;
+        width: 25px;
+        height: 3px;
+        background-color: #fb8f1d;
+    }
+
+    .dropbtn-item:nth-child(2) {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .dropbtn-items:focus .dropdown-items {
+        display: flex;
+    }
+
+    .dropdown-items {
+        display: none;
+        flex-direction: column;
+    }
+
+    .dropdown-link {
+        text-decoration: none;
+        color: #B8BECD;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .dropdown-link:hover {
+        color: #fb8f1d;
+    }
+
+    .header-menu__btn {
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .top-content {
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .form {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .select-items {
+        margin-top: 50px;
+    }
+
+    .select {
+        width: calc(50% - 15px);
+        padding: 12px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .select:nth-child(odd) {
+        margin-right: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+        width: 150px;
+        height: 45px;
+    }
+
+    .content {
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .content-info {
+        margin-top: 35px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .content-text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .destinations {
+        margin-top: 100px;
+    }
+
+    .destinations-cards {
+        flex-wrap: wrap;
+    }
+
+    .destinations-card {
+        margin-right: 0;
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .destinations-card:nth-child(odd) {
+        margin-right: 20px;
+    }
+
+    .reviews {
+        margin-top: 100px;
+    }
+
+    .review-info {
+        margin-top: 50px;
+        margin-right: 50px;
+        width: 50%;
+    }
+
+    .review-star {
+        width: 19px;
+        height: 18px;
+        background-size: 20px;
+        margin-right: 10px;
+    }
+
+    .review-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .review-author {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .review-position {
+        font-size: 16px;
+    }
+
+    .review-picture {
+        background: url(img/image6.svg) no-repeat top center;
+    }
+
+    .slider {
+        padding: 10px 10px 5px;
+    }
+
+    .slider-btn {
+        width: 35px;
+        height: 35px;
+        background-size: 35px;
+    }
+
+    .back {
+        margin-right: 5px;
+    }
+
+    .trending {
+        margin-top: 100px;
+    }
+
+    .trending-cards {
+        flex-wrap: wrap;
+    }
+
+    .trending-card {
+        width: calc(50% - 20px);
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .trending-card:nth-child(odd) {
+        margin-right: 20px;
+    }
+
+    .trending-card-img {
+        height: 60%;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .footer-info {
+        padding-top: 40px;
+        flex-direction: column-reverse;
+    }
+
+    .footer-left {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .copywrit {
+        font-size: 16px;
+        margin-top: 35px;
+        line-height: 25px;
+    }
+
+    .footer-right {
+        width: 100%;
+    }
+
+    .list-item-title {
+        font-size: 16px;
+    }
+
+    .list-item {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .dropdowns {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .dropbtn-items {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        padding: 5px;
+    }
+
+    .dropbtn-items:focus {
+        outline: 1px solid #fb8f1d;
+        padding: 5px;
+    }
+
+    .dropbtn-item {
+        position: relative;
+        width: 25px;
+        height: 3px;
+        background-color: #fb8f1d;
+    }
+
+    .dropbtn-item:nth-child(2) {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .dropbtn-items:focus .dropdown-items {
+        display: flex;
+    }
+
+    .dropdown-items {
+        display: none;
+        flex-direction: column;
+    }
+
+    .dropdown-link {
+        text-decoration: none;
+        color: #B8BECD;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .dropdown-link:hover {
+        color: #fb8f1d;
+    }
+    .header-menu {
+        align-items: center;
+    }
+    .header-menu__btn {
+        width: 100px;
+        height: 35px;
+        font-size: 13px;
+    }
+    .header-menu__btn--login {
+        margin-right: 10px;
+    }
+    .top-content {
+        flex-direction: column;
+    }
+    .top-content-left {
+        width: 100%;
+    }
+    .top-content-left_title {
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .form {
+        margin-top: 40px;
+    }
+    .select-items {
+        margin-top: 50px;
+    }
+    .select {
+        width: calc(50% - 15px);
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .select:nth-child(odd) {
+        margin-right: 15px;
+    }
+    .btn {
+        width: 140px;
+        height: 45px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .top-content-right_wrap {
+        width: 100%;
+    }
+    .content {
+        margin-top: 70px;
+        flex-direction: column-reverse;
+    }
+    .content:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+    .content:nth-child(4) .content-picture {
+        margin: 0;
+        margin-top: 10px;
+    }
+    .content-picture {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .content-info {
+        width: 100%;
+        margin-top: 0;
+    }
+    h2 {
+        font-size: 28px;
+        margin-right: 15px;
+    }
+    .content-text {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .destinations {
+        margin-top: 100px;
+    }
+    .destinations-header {
+        flex-wrap: wrap;
+    }
+    .destinations-header-link {
+        margin-left: 0;
+    }
+    .destinations-cards {
+        flex-direction: column;
+    }
+    .destinations-card {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .destinations-card-info {
+        height: 250px;
+    }
+    .destinations-card-city {
+        font-size: 16px;
+    }
+    .destinations-card-country {
+        font-size: 14px;
+    }
+    .reviews {
+        margin-top: 100px;
+    }
+    .review {
+        flex-direction: column-reverse;
+    }
+    .review-info {
+        margin-right: 0;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .review-star {
+        width: 18px;
+        height: 19px;
+        background-size: 20px;
+        margin-right: 10px;
+    }
+    .review-text {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    .review-author {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .review-position {
+        font-size: 14px;
+    }
+    .review-picture {
+        width: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .slider {
+        margin-top: 300px;
+        padding: 10px 10px 0 15px;
+    }
+    .slider-btn {
+        width: 35px;
+        height: 35px;
+        background-size: 35px;
+    }
+    .back {
+        margin-right: 5px;
+    }
+    .trending {
+        margin-top: 100px;
+    }
+    .trending-header {
+        flex-wrap: wrap;
+    }
+    .trending-cards {
+        flex-direction: column;
+    }
+    .trending-card {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .trending-card-info {
+        width: 100%;
+    }
+    .trending-card-img {
+        height: 60%;
+    }
+    .trending-card-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .trending-card-description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .trending-card-read {
+        font-size: 14px;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .footer-info {
+        flex-direction: column-reverse;
+        padding-top: 20px;
+    }
+    .footer-left {
+        width: 100%;
+        margin-right: 0;
+    }
+    .footer-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .copywrit {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .footer-right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .list-item-title {
+        font-size: 16px;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+    .list-item {
+        font-size: 14px;
+        line-height: 33px;
+    }
 }
